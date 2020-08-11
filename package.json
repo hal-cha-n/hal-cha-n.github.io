@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/hal-cha-n/hal-cha-n.github.io#readme",
   "dependencies": {
-    "startbootstrap-grayscale": "^6.0.2"
+    "startbootstrap-freelancer": "^6.0.4"
   }
 }
