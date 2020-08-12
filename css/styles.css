@@ -1,18 +1,4 @@
-.aaa {
-    background-image: url(https://placehold.jp/2000x1000.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
 
-.masthead h1 {
-  font-family: 'Noto Serif JP', serif;
-  background: rgb(255, 255, 255);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-
-.masthead h2 {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+.portfolio-text { 
+  margin: 10px 0;
 }
