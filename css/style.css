@@ -1,0 +1,47 @@
+header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../resource/本日\ 休暇日.jpg');
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(0.5);
+    z-index: -1;
+}
+
+.header-text {
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    height: 2000px;
+    /* スクロールするための高さを設定 */
+}
+
+.navbar-parent {
+    position: relative;
+    height: 100px;
+    /* ナビゲーションバーの高さ */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    /* 他の要素よりも手前に表示する */
+}
