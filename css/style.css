@@ -13,18 +13,16 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../resource/本日\ 休暇日.jpg');
+    background-image: url('../resource/header_background.jpg');
     background-size: cover;
     background-position: center center;
     filter: brightness(0.5);
     z-index: -1;
 }
 
-.header-text {
+.header-logo {
     text-align: center;
-    color: white;
-    font-size: 5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height: 10vh;
 }
 
 body {
