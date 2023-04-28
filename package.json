@@ -1,0 +1,22 @@
+{
+  "name": "hal-cha-n.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hal-cha-n/hal-cha-n.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hal-cha-n/hal-cha-n.github.io/issues"
+  },
+  "homepage": "https://github.com/hal-cha-n/hal-cha-n.github.io#readme",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
