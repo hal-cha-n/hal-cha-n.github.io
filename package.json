@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hal-cha-n/hal-cha-n.github.io#readme",
   "dependencies": {
+    "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0",
