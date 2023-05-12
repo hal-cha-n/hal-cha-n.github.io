@@ -1,6 +1,9 @@
 name: Build vue and deploy to GitHub Pages
 
-on: push
+on: 
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
