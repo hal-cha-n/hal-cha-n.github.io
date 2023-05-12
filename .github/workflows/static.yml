@@ -20,6 +20,7 @@ jobs:
         with:
           cache: npm
       - run: npm install
+      - run: npm run build
   deploy:
     needs: build
     environment:
@@ -32,7 +33,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: './dist'
+          path: 'dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
